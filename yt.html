@@ -2,6 +2,20 @@
 <html lang="en">
     <head>
         <title>Youtube videos</title>
+        <div>
+            <p id="userName"></p>
+            <script>
+                var userName = localStorage.getItem("Siuozl_ProfileNAME");
+                    document.getElementById("userName").innerText = (userName);
+            </script>
+            <style>
+                #userName {
+                    float: right;
+                    font-family: fantasy;
+                    font-size: x-small;
+                }
+            </style>
+        </div>
     </head>
     <body>
         <h2>Youtube videos</h2>

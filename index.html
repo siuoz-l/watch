@@ -16,6 +16,20 @@
                 padding: 2%;
             }
         </style>
+        <div>
+            <p id="userName"></p>
+            <script>
+                var userName = localStorage.getItem("Siuozl_ProfileNAME");
+                    document.getElementById("userName").innerText = (userName);
+            </script>
+            <style>
+                #userName {
+                    float: right;
+                    font-family: fantasy;
+                    font-size: x-small;
+                }
+            </style>
+        </div>
     </head>
     <body>
         <h2>Siuozl Watch</h2>
